@@ -1,0 +1,7 @@
+apiVersion: catalog.cattle.io/v1
+kind: ClusterRepo
+metadata:
+  name: ant-helm-chart
+spec:
+  clientSecret: null
+  url: https://firefhtr.github.io/helm-chart/
